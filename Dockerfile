@@ -17,4 +17,4 @@ EXPOSE 5000
 ENV NAME World
 
 # Run app.py when the container launches
-CMD ["python", "car_prediction_mlops.py"]
+CMD ["python", "flask_app.py"]
