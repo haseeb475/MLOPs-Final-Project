@@ -32,6 +32,9 @@ def data():
     return render_template('index.html')
 
 @app.route('/' ,methods=['POST'])
+
+# MAIN FUNCTION
+
 def car_price_prediction():
     name = request.form.get('name')
     company = request.form.get('company')
